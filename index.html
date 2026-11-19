@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,7 +7,7 @@
   <title>Home — WeGolden Sales Hub (Internal Draft)</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Sans+Arabic:wght@400;500;600;700&family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
 </head>
@@ -18,8 +18,8 @@
       <a class="brand" href="index.html">
         <img src="assets/logo.svg" alt="">
         <span class="brand-text">
-          <span class="brand-name">WeGolden Sales Hub <span class="badge-internal">Internal</span></span>
-          <span class="brand-sub">MENA &amp; Iran · Draft</span>
+          <span class="brand-name"><span dir="ltr">WeGolden Sales Hub</span> <span class="badge-internal">Internal</span></span>
+          <span class="brand-sub">MENA & Iran · Draft</span>
         </span>
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
@@ -31,18 +31,18 @@
         <a href="celebrations.html">Celebrations</a>
         <a href="faq.html">FAQ</a>
         <a href="weekly-report.html">Weekly report</a>
-        <span class="lang-slot" title="Arabic and Farsi pages will be added later">
-          <span aria-current="true">EN</span>
-          <span class="soon" aria-disabled="true">عربي</span>
-          <span class="soon" aria-disabled="true">فارسی</span>
-        </span>
+      </nav>
+      <nav class="lang-switch" aria-label="Language">
+          <a href="index.html" lang="en" hreflang="en" aria-current="true">English</a>
+          <a href="fa/index.html" lang="fa" hreflang="fa">فارسی</a>
+          <a href="ar/index.html" lang="ar" hreflang="ar">العربية</a>
+          <a href="ckb/index.html" lang="ckb" hreflang="ckb">کوردی</a>
       </nav>
     </div>
   </header>
   <div class="draft-banner">Internal draft only — not published, not shared, and not a final policy document. Content is for review by the Regional Head.</div>
   <main class="main" id="main">
-
-    <header class="page-hero">
+<header class="page-hero">
       <p class="kicker">Internal sales hub · Draft</p>
       <h1>WeGolden MENA &amp; Iran Sales Hub</h1>
       <p class="lede">A single place for the sales team to understand pay, KPI, commission, what makes a qualified IB, milestones, and weekly reporting. This draft follows the mechanism effective 17 November 2026 (until further update), plus current operating rules confirmed for this build. It is not published.</p>
@@ -63,7 +63,7 @@
       <a class="card" href="milestones.html">
         <div class="card-kicker">03</div>
         <h2>Employee milestones</h2>
-        <p>Join date, KPI start month, first depositing client, and first IB — table structure with example rows only.</p>
+        <p>Join date, targets start month (month 3), first depositing client, and first IB — current roster draft, with dates only.</p>
       </a>
       <a class="card" href="celebrations.html">
         <div class="card-kicker">04</div>
@@ -87,10 +87,9 @@
       <p>Read Pay, KPI &amp; Commission first. Worked examples use invented, labelled figures only — they are not anyone’s actual salary, commission, or client book. Points that still need a decision are flagged on that page and in the FAQ.</p>
       <div class="callout callout-note">
         <strong class="label">Scope of this version</strong>
-        <p>This site is an internal English draft. Arabic and Farsi versions are planned; the layout uses logical spacing so right-to-left pages can be added later. The language switcher in the header is not active yet.</p>
+        <p>This site is an internal draft in English, فارسی, العربية, and کوردی. Use the language switcher in the header. Translated pages are machine-translation drafts and should be reviewed by a native speaker. If there is any difference, the English version prevails.</p>
       </div>
     </section>
-
   </main>
   <footer class="site-footer">
     <div class="footer-inner">
@@ -98,7 +97,7 @@
       <p>Trading contracts for difference (CFDs) and forex involves a high risk of losing money, and may not be suitable for every client. Markets can move quickly. There is no guarantee of profit, and past activity is not a reliable indicator of future results. Nothing on this internal site is an offer, a recommendation, or a promise of returns.</p>
       <h2>Licensing and registration</h2>
       <p class="licenses"><strong>FSCA</strong> — Financial Services Provider FSP 53890. <strong>FinCEN</strong> — Money Services Business (MSB) registration (this is a registration, not a license). <strong>Comoros MISA</strong> — BFX2024121.</p>
-      <p class="footer-note">WeGolden (WG) Sales Hub · MENA &amp; Iran · Internal use only · English draft with space for Arabic and Farsi later · Source mechanism dated 17 November 2026, until further update.</p>
+      <p class="footer-note">WeGolden (WG) Sales Hub · MENA &amp; Iran · Internal use only · English, فارسی, العربية, and کوردی · Source mechanism dated 17 November 2026, until further update.</p>
     </div>
   </footer>
   <script src="js/nav.js"></script>
